@@ -4,7 +4,17 @@ body {
   margin: 20px;
 }
 
-h1,
+/* The h1 rule doesn't work because:
+   1. It's defined later in the file (CSS cascade order).
+   2. There might be a more specific rule overriding it.
+   3. There could be an inline style in the HTML that takes precedence.
+   To fix this, move the h1 rule here and ensure it's specific enough: */
+
+h1, body h1 {
+  color: blue !important;
+  text-align: center;
+}
+
 h2,
 h3 {
   color: #333;
@@ -29,6 +39,7 @@ body {
 }
 
 h1 {
+  color: blue;
   text-align: center;
   color: #333;
 }
