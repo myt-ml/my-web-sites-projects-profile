@@ -110,3 +110,6 @@ footer {
     order: -1;
   }
 }
+.related {
+  list-style: none;
+}
