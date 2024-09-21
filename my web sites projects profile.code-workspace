@@ -1,13 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../jonas_html_css/jonas/html-css-course-master/final/02-HTML-Fundamentals"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "my-web-sites-projects-profile"
-	}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../jonas_html_css/jonas/html-css-course-master/final/02-HTML-Fundamentals"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "my web sites projects profile"
+  }
 }

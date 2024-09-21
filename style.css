@@ -82,4 +82,7 @@ li {
 .image-container img {
   max-width: 300px;
   margin: 10px;
-} */
+}
+.image1{
+  float: left;
+}
